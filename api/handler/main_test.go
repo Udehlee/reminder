@@ -3,7 +3,7 @@ package handler
 import (
 	"testing"
 
-	models "github.com/Udehlee/payment-reminder/models/user"
+	models "github.com/Udehlee/reminder/models/user"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/mock"
 )

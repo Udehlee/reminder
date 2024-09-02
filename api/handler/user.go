@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	models "github.com/Udehlee/payment-reminder/models/user"
-	"github.com/Udehlee/payment-reminder/service"
-	"github.com/Udehlee/payment-reminder/utils"
+	models "github.com/Udehlee/reminder/models/user"
+	"github.com/Udehlee/reminder/service"
+	"github.com/Udehlee/reminder/utils"
 	"github.com/gin-gonic/gin"
 )
 

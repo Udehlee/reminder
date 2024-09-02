@@ -3,10 +3,10 @@ package service
 import (
 	"fmt"
 
-	"github.com/Udehlee/payment-reminder/db/db"
-	"github.com/Udehlee/payment-reminder/internals"
-	models "github.com/Udehlee/payment-reminder/models/user"
-	"github.com/Udehlee/payment-reminder/utils"
+	"github.com/Udehlee/reminder/db/db"
+	"github.com/Udehlee/reminder/internals"
+	models "github.com/Udehlee/reminder/models/user"
+	"github.com/Udehlee/reminder/utils"
 )
 
 type Service struct {

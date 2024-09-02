@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/Udehlee/payment-reminder/api/handler"
+	"github.com/Udehlee/reminder/api/handler"
 	"github.com/gin-gonic/gin"
 )
 

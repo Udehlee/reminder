@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	models "github.com/Udehlee/payment-reminder/models/user"
+	models "github.com/Udehlee/reminder/models/user"
 )
 
 type Store interface {
