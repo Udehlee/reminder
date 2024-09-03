@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/Udehlee/payment-reminder/api/handler"
-	"github.com/Udehlee/payment-reminder/api/routes"
-	"github.com/Udehlee/payment-reminder/db/db"
-	"github.com/Udehlee/payment-reminder/internals"
-	"github.com/Udehlee/payment-reminder/service"
+	"github.com/Udehlee/reminder/api/handler"
+	"github.com/Udehlee/reminder/api/routes"
+	"github.com/Udehlee/reminder/db/db"
+	"github.com/Udehlee/reminder/internals"
+	"github.com/Udehlee/reminder/service"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )

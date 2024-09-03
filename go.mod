@@ -1,4 +1,4 @@
-module github.com/Udehlee/payment-reminder
+module github.com/Udehlee/reminder
 
 go 1.22.3
 
