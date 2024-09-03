@@ -24,7 +24,7 @@ func NewService(db db.Store, logger internals.Logger, scheduler *internals.Sched
 }
 
 // CreateUser creates a new user
-func (s *Service) CreateUser(fname, lname, email, password string) (models.User, error) {
+func (s *Service) CreateUser(fname, lname, email, password, phoneNo string) (models.User, error) {
 	s.logger.Info("Starting user creation process")
 
 	hashedPwd, err := utils.HashPassword(password)
@@ -34,10 +34,11 @@ func (s *Service) CreateUser(fname, lname, email, password string) (models.User,
 	}
 
 	user := models.User{
-		FirstName: fname,
-		LastName:  lname,
-		Email:     email,
-		Password:  hashedPwd,
+		FirstName:   fname,
+		LastName:    lname,
+		Email:       email,
+		Password:    hashedPwd,
+		PhoneNumber: phoneNo,
 	}
 
 	if err := s.store.SaveUser(user); err != nil {
