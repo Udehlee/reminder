@@ -21,10 +21,11 @@ import (
 
 func TestRegister(t *testing.T) {
 	reqUser := models.CreateUserReq{
-		FirstName: "Peter",
-		LastName:  "Ada",
-		Email:     "ada.example@email.com",
-		Password:  "password",
+		FirstName:   "Peter",
+		LastName:    "Ada",
+		Email:       "ada.example@email.com",
+		Password:    "password",
+		PhoneNumber: "+12345627",
 	}
 
 	// // Set up the MockDB

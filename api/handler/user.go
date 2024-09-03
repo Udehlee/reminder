@@ -32,7 +32,7 @@ func (h *Handler) Register(c *gin.Context) {
 		return
 	}
 
-	user, err := h.service.CreateUser(regReq.FirstName, regReq.LastName, regReq.Email, regReq.Password)
+	user, err := h.service.CreateUser(regReq.FirstName, regReq.LastName, regReq.Email, regReq.Password, regReq.PhoneNumber)
 	if err != nil {
 		utils.BadRequestErr(c, "Bad Request", "Registration unsuccessful", http.StatusBadRequest)
 		return
